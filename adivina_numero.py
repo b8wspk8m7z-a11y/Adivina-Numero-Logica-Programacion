@@ -1,28 +1,23 @@
 import random
 
-# Proyecto Autónomo - Lógica de Programación
-# Juego: Adivina el Número
+def juego_adivina_numero():
+    print("🎮 Bienvenido al juego Adivina el Número")
+    print("Estoy pensando en un número entre 1 y 10.")
 
-numero_secreto = random.randint(1, 100)
-intentos = 0
-adivinado = False
+    numero_secreto = random.randint(1, 10)
+    intentos = 0
+    adivinado = False
 
-print("Bienvenido al juego Adivina el Número")
-print("El sistema ha generado un número entre 1 y 100.")
-
-while not adivinado:
-    try:
-        numero_usuario = int(input("Ingresa un número: "))
+    while not adivinado:
+        intento = int(input("Ingresa tu número: "))
         intentos += 1
 
-        if numero_usuario > numero_secreto:
-            print("El número secreto es menor.")
-        elif numero_usuario < numero_secreto:
-            print("El número secreto es mayor.")
+        if intento < numero_secreto:
+            print("El número es mayor.")
+        elif intento > numero_secreto:
+            print("El número es menor.")
         else:
+            print(f"🎉 ¡Correcto! Adivinaste en {intentos} intentos.")
             adivinado = True
-            print("¡Felicidades! Adivinaste el número.")
-            print("Intentos realizados:", intentos)
 
-    except ValueError:
-        print("Error: debes ingresar un número válido.")
+juego_adivina_numero()
