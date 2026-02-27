@@ -2,7 +2,7 @@
 
 
 
-## 📌 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto consiste en el desarrollo de un juego interactivo en Python donde el usuario debe adivinar un número aleatorio generado por el sistema entre 1 y 10.
 
@@ -16,7 +16,7 @@ El programa fue desarrollado aplicando los conocimientos adquiridos en la materi
 
 
 
-## 🎯 Objetivo
+##  Objetivo
 
 Desarrollar un software funcional que permita al usuario jugar múltiples partidas, registrar intentos y visualizar estadísticas acumuladas.
 
@@ -26,7 +26,7 @@ Desarrollar un software funcional que permita al usuario jugar múltiples partid
 
 
 
-## ⚙️ Funcionalidades
+##  Funcionalidades
 
 \- Menú principal interactivo
 
@@ -50,7 +50,7 @@ Desarrollar un software funcional que permita al usuario jugar múltiples partid
 
 
 
-## 🧠 Estructuras utilizadas
+##  Estructuras utilizadas
 
 En este proyecto se implementaron:
 
@@ -78,7 +78,7 @@ En este proyecto se implementaron:
 
 
 
-## 📊 Estadísticas
+##  Estadísticas
 
 El sistema registra:
 
@@ -94,7 +94,7 @@ El sistema registra:
 
 
 
-## ▶️ Cómo ejecutar el programa
+##  Cómo ejecutar el programa
 
 
 
@@ -103,4 +103,5 @@ El sistema registra:
 2\. Ejecutar el siguiente comando:
 
 
-
+```bash
+python main.py
